@@ -44,7 +44,7 @@ public class HTTPClient : MonoBehaviour
     IEnumerator UnityPOST()
     {
         string jsonString = "{\"username\":\"Galal\"}";
-        string username = "galal";
+        //string username = "galal";
         byte[] myData = System.Text.Encoding.UTF8.GetBytes(jsonString);
 
         // UnityWebRequest www = UnityWebRequest.Post("https://9rtvrin7r5.execute-api.us-east-2.amazonaws.com/default/UnityTest",username);

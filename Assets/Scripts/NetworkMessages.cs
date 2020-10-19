@@ -1,10 +1,11 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using UnityEngine;
 
 namespace NetworkMessages
 {
     public enum Commands{
+        PLAYER_JOINED,
+        PLAYER_LEFT, 
         PLAYER_UPDATE,
         SERVER_UPDATE,
         HANDSHAKE,
